@@ -1,0 +1,6 @@
+@VPSyncReviewServer_HostAddress = http://localhost:5074
+
+GET {{VPSyncReviewServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
