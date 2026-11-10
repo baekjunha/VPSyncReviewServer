@@ -9,5 +9,7 @@
         public string DrawingData { get; set; } = string.Empty;
 
         public DateTime CreatedAt { get; set; }
+
+        public int Frame { get; set; }
     }
 }
