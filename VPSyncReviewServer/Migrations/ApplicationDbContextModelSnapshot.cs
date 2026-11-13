@@ -37,6 +37,9 @@ namespace VPSyncReviewServer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Frame")
+                        .HasColumnType("int");
+
                     b.Property<string>("ShotName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
